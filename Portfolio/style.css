@@ -1,0 +1,81 @@
+.navbar {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    float: left;
+    text-align: left;
+    padding: 15px;
+    color: crimson;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: white;
+  }
+  
+
+  body{
+      background-color: #000;
+  }
+  
+  /*home section. jumbotron*/
+
+.jumbotron {
+   height: 100vh;
+   background-size: cover;
+   font-style: oblique;
+   font-size: 30px;
+   font-weight: bolder;
+   font-family: 'Times New Roman';
+   color: burlywood;
+   text-align: left;
+   border-image: none;
+  }
+
+  .button {
+    background-color: black;
+    border: none;
+    color: grey;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: wavy;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .button a:hover{
+      background-color: burlywood;
+  }
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  table{
+    width: 70%;
+    height: 200%;
+    text-align: center;
+    background-color: azure;
+    vertical-align: middle;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Times New Roman';
+  }
+  th, tr {
+      padding: 50px;
+      text-align: center;
+  }
